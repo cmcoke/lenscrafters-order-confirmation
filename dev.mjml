@@ -1,0 +1,26 @@
+<!-- if owa is set to "desktop", it will force desktop version of email to display on outlook. Otherwise outlook will display mobile version since it ignores media queries -->
+<mjml owa="desktop">
+
+  <mj-head>
+    <!-- This tag allows you to set the title of an MJML document -->
+    <mj-title>LensCrafters Order Confirmation</mj-title>
+
+    <!-- This tag allows you to set the preview that will be displayed in the inbox of the recipient. -->
+    <mj-preview>Your LensCrafters orders of the Ray Ban eyeglasses and a travel case have been confirmed.</mj-preview>
+
+    <!-- This tag allows you to import fonts used in the MJML document -->
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" />
+
+    <!-- This tag allows you to modify default attributes on a mj-tag and add mj-class to them. -->
+    <mj-attributes>
+      <mj-all padding="0" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#f5f5f5">
+
+
+
+  </mj-body>
+
+</mjml>

@@ -19,6 +19,50 @@
 
   <mj-body background-color="#f5f5f5">
 
+    <mj-raw>
+      <!-- logo -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" border-top="5px solid #f5f5f5">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/bJP1V0SJ/logo2a.png" alt="LensCrafters logo" href="https://www.lenscrafters.com" width="192px" height="94px" padding="20px 0px 10px 0px"/>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- order confirmation heading -->
+    </mj-raw>
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text font-family="Montserrat" font-weight="700" align="center" color="#4b4b4b">
+          <h1 >Order Confirmation</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- confirmation text content to customer -->
+    </mj-raw>
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text font-family="Montserrat" font-size="16px" line-height="25px"   align="center" color="#4b4b4b">
+          <p>Hey Diane Hayes,</p>
+          <p style="padding:0px 10px">We would like to let you know that your order was successfully placed.</p>
+          <p style="padding:0px 20px">Another email will be sent to you once your order ships.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- order number -->
+    </mj-raw>
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text font-family="Montserrat" font-size="16px" text-transform="uppercase" align="center" color="#4b4b4b">
+          <h3>Order no. <span style="color:crimson; padding:0px 0px 0px 10px;">LC123456789</span> </h3>
+          <p style="color:#ADADAD; font-size:14px; padding:0px 0px 10px 0px">07/12/2018</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
 
 
   </mj-body>

@@ -15,6 +15,14 @@
     <mj-attributes>
       <mj-all padding="0" />
     </mj-attributes>
+
+    <mj-style>
+      @media (max-width:480px) {
+        .center p {
+          text-align:center !important;
+        }
+      }
+    </mj-style>
   </mj-head>
 
   <mj-body background-color="#f5f5f5">
@@ -34,7 +42,7 @@
     <mj-section background-color="#ffffff">
       <mj-column>
         <mj-text font-family="Montserrat" font-weight="700" align="center" color="#4b4b4b">
-          <h1 >Order Confirmation</h1>
+          <h1>Order Confirmation</h1>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -42,12 +50,12 @@
     <mj-raw>
       <!-- confirmation text content to customer -->
     </mj-raw>
-    <mj-section background-color="#ffffff">
+    <mj-section background-color="#ffffff" padding="12px 13px 12px 13px">
       <mj-column>
-        <mj-text font-family="Montserrat" font-size="16px" line-height="25px"   align="center" color="#4b4b4b">
+        <mj-text font-family="Montserrat" font-size="16px" line-height="27px"   align="center" color="#4b4b4b">
           <p>Hey Diane Hayes,</p>
-          <p style="padding:0px 10px">We would like to let you know that your order was successfully placed.</p>
-          <p style="padding:0px 20px">Another email will be sent to you once your order ships.</p>
+          <p>We would like to let you know that your order was successfully placed.</p>
+          <p>Another email will be sent to you once your order ships.</p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -58,12 +66,162 @@
     <mj-section background-color="#ffffff">
       <mj-column>
         <mj-text font-family="Montserrat" font-size="16px" text-transform="uppercase" align="center" color="#4b4b4b">
-          <h3>Order no. <span style="color:crimson; padding:0px 0px 0px 10px;">LC123456789</span> </h3>
+          <h3>Order no. <span style="color:crimson; padding:0px 0px 0px 5px;">LC1234-56789</span> </h3>
           <p style="color:#ADADAD; font-size:14px; padding:0px 0px 10px 0px">07/12/2018</p>
         </mj-text>
       </mj-column>
     </mj-section>
 
+    <mj-raw>
+      <!-- items ordered heading & divider -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="12px 30px 12px 30px" text-align="left" css-class="center">
+      <mj-column border-bottom="1px solid #dadada" >
+        <mj-text font-family="Montserrat" font-weight="500" font-size="15px" text-transform="uppercase" color="#ADADAD" >
+          <p>Items Ordered</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- eyeglasses -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="0px 40px 12px 40px">
+
+      <mj-column  width="110px" vertical-align="middle">
+        <mj-image src="https://i.postimg.cc/gJqvZGHr/glasses.png" width="120px" align="left" fluid-on-mobile="true" />
+      </mj-column>
+
+      <mj-group width="410px" vertical-align="middle">
+        <mj-column>
+          <mj-text font-family="Montserrat" align="left" padding="0px 11px">
+            <p>Ray Ban</p>
+            <p style="color:#ADADAD;">Black</p>
+          </mj-text>
+        </mj-column>
+        <mj-column >
+          <mj-text font-family="Montserrat" align="right">
+            <p> <span style="padding:0px 7px 0px 0px">x1</span>$189.00</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+
+    </mj-section>
+
+    <!-- divider -->
+    <mj-section background-color="#ffffff"  padding="12px 30px 12px 30px">
+      <mj-column border-bottom="1px solid #dadada" ></mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- travel case -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="0px 40px 12px 40px">
+
+      <mj-column  width="110px" vertical-align="middle">
+        <mj-image src="https://i.postimg.cc/SKYnHtk6/case.jpg" width="120px" align="left" fluid-on-mobile="true" />
+      </mj-column>
+
+      <mj-group width="410px" vertical-align="middle">
+        <mj-column>
+          <mj-text font-family="Montserrat" align="left" padding="0px 11px">
+            <p>Travel Case</p>
+            <p style="color:#ADADAD;">Black</p>
+          </mj-text>
+        </mj-column>
+        <mj-column >
+          <mj-text font-family="Montserrat" align="right">
+            <p> <span style="padding:0px 7px 0px 0px">x1</span>$20.00</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+
+    </mj-section>
+
+    <!-- divider -->
+    <mj-section background-color="#ffffff" padding="12px 30px 12px 30px">
+      <mj-column border-bottom="1px solid #dadada" ></mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- discount -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="12px 40px 12px 40px">
+
+      <mj-group>
+        <mj-column>
+          <mj-text font-family="Montserrat">
+            <p>Discount <span style="color:crimson;">(50%LENS)</span></p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text font-family="Montserrat" align="right">
+            <p>-$50.00</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+
+    </mj-section>
+
+    <mj-raw>
+      <!-- subtotal -->
+    </mj-raw>
+    <mj-section  background-color="#ffffff" padding="0px 40px 12px 40px">
+
+      <mj-group>
+        <mj-column>
+          <mj-text font-family="Montserrat">
+            <p>Subtotal</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text font-family="Montserrat" align="right">
+            <p>$239.00</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+
+    </mj-section>
+
+    <mj-raw>
+      <!-- shipping -->
+    </mj-raw>
+    <mj-section  background-color="#ffffff" padding="0px 40px 12px 40px">
+
+      <mj-group>
+        <mj-column>
+          <mj-text font-family="Montserrat">
+            <p>UPS Mail (2 days)</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text font-family="Montserrat" align="right">
+            <p>$0</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+
+    </mj-section>
+
+    <mj-raw>
+      <!-- total -->
+    </mj-raw>
+    <mj-section  background-color="#ffffff" padding="0px 40px 12px 40px">
+
+      <mj-group>
+        <mj-column>
+          <mj-text font-family="Montserrat" >
+            <p>Total</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text font-family="Montserrat" align="right">
+            <p>$239.00</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+
+    </mj-section>
 
   </mj-body>
 

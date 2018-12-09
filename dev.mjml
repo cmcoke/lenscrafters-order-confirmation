@@ -38,7 +38,7 @@
     <mj-raw>
       <!-- logo -->
     </mj-raw>
-    <mj-section background-color="#ffffff" border-top="5px solid #f5f5f5">
+    <mj-section background-color="#ffffff">
       <mj-column>
         <mj-image src="https://i.postimg.cc/bJP1V0SJ/logo2a.png" alt="LensCrafters logo" href="https://www.lenscrafters.com" width="192px" height="94px" padding="20px 0px 10px 0px"/>
       </mj-column>
@@ -49,7 +49,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-text font-family="Montserrat" font-weight="700" align="center" color="#4b4b4b">
+        <mj-text font-family="'Montserrat', sans-serif" font-weight="700" align="center" color="#4b4b4b">
           <h1>Order Confirmation</h1>
         </mj-text>
       </mj-column>
@@ -60,7 +60,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="12px 13px 12px 13px">
       <mj-column>
-        <mj-text font-family="Montserrat" font-size="16px" line-height="27px"   align="center" color="#4b4b4b">
+        <mj-text font-family="'Montserrat', sans-serif" font-size="16px" line-height="27px"   align="center" color="#4b4b4b">
           <p>Hey Diane Hayes,</p>
           <p>We would like to let you know that your order was successfully placed.</p>
           <p>Another email will be sent to you once your order ships.</p>
@@ -73,7 +73,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-text font-family="Montserrat" font-size="16px" text-transform="uppercase" align="center" color="#4b4b4b">
+        <mj-text font-family="'Montserrat', sans-serif" font-size="16px" text-transform="uppercase" align="center" color="#4b4b4b">
           <h3>Order no. <span style="color:crimson; padding:0px 0px 0px 5px;">LC1234-56789</span> </h3>
           <p style="color:#ADADAD; font-size:14px; padding:0px 0px 10px 0px">07/12/2018</p>
         </mj-text>
@@ -85,7 +85,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="12px 30px 12px 30px" text-align="left" css-class="center">
       <mj-column border-bottom="1px solid #dadada" >
-        <mj-text font-family="Montserrat" font-weight="500" font-size="15px" text-transform="uppercase" color="#ADADAD" >
+        <mj-text font-family="'Montserrat', sans-serif" font-weight="500" font-size="15px" text-transform="uppercase" color="#ADADAD" >
           <p>Items Ordered</p>
         </mj-text>
       </mj-column>
@@ -102,13 +102,13 @@
 
       <mj-group width="410px" vertical-align="middle">
         <mj-column>
-          <mj-text font-family="Montserrat" align="left" padding="0px 11px">
+          <mj-text font-family="'Montserrat', sans-serif" align="left" padding="0px 11px">
             <p style="font-weight:600">Ray Ban</p>
             <p style="color:#ADADAD;">Black</p>
           </mj-text>
         </mj-column>
         <mj-column >
-          <mj-text font-family="Montserrat" align="right">
+          <mj-text font-family="'Montserrat', sans-serif" align="right">
             <p> <span style="padding:0px 7px 0px 0px">x1</span>$189.00</p>
           </mj-text>
         </mj-column>
@@ -132,13 +132,13 @@
 
       <mj-group width="410px" vertical-align="middle">
         <mj-column>
-          <mj-text font-family="Montserrat" align="left" padding="0px 11px">
+          <mj-text font-family="'Montserrat', sans-serif" align="left" padding="0px 11px">
             <p style="font-weight:600">Travel Case</p>
             <p style="color:#ADADAD;">Black</p>
           </mj-text>
         </mj-column>
         <mj-column >
-          <mj-text font-family="Montserrat" align="right">
+          <mj-text font-family="'Montserrat', sans-serif" align="right">
             <p> <span style="padding:0px 7px 0px 0px">x1</span>$20.00</p>
           </mj-text>
         </mj-column>
@@ -158,12 +158,12 @@
 
       <mj-group>
         <mj-column>
-          <mj-text font-family="Montserrat">
+          <mj-text font-family="'Montserrat', sans-serif">
             <p style="font-weight:600">Discount <span style="color:crimson;">(50%LENS)</span></p>
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-text font-family="Montserrat" align="right">
+          <mj-text font-family="'Montserrat', sans-serif" align="right">
             <p>-$50.00</p>
           </mj-text>
         </mj-column>
@@ -178,12 +178,12 @@
 
       <mj-group>
         <mj-column>
-          <mj-text font-family="Montserrat">
+          <mj-text font-family="'Montserrat', sans-serif">
             <p style="font-weight:600">Subtotal</p>
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-text font-family="Montserrat" align="right">
+          <mj-text font-family="'Montserrat', sans-serif" align="right">
             <p>$239.00</p>
           </mj-text>
         </mj-column>
@@ -198,12 +198,12 @@
 
       <mj-group>
         <mj-column>
-          <mj-text font-family="Montserrat">
+          <mj-text font-family="'Montserrat', sans-serif">
             <p style="font-weight:600">UPS Mail (2 days)</p>
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-text font-family="Montserrat" align="right">
+          <mj-text font-family="'Montserrat', sans-serif" align="right">
             <p>$0</p>
           </mj-text>
         </mj-column>
@@ -218,12 +218,12 @@
 
       <mj-group>
         <mj-column>
-          <mj-text font-family="Montserrat" >
+          <mj-text font-family="'Montserrat', sans-serif" >
             <p style="font-weight:600">Total</p>
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-text font-family="Montserrat" align="right">
+          <mj-text font-family="'Montserrat', sans-serif" align="right">
             <p>$239.00</p>
           </mj-text>
         </mj-column>
@@ -236,7 +236,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="12px 30px 1px 30px" text-align="left" css-class="center">
       <mj-column>
-        <mj-text font-family="Montserrat" font-weight="500" font-size="15px" text-transform="uppercase" color="#ADADAD" >
+        <mj-text font-family="'Montserrat', sans-serif" font-weight="500" font-size="15px" text-transform="uppercase" color="#ADADAD" >
           <p>Payment Info</p>
         </mj-text>
       </mj-column>
@@ -247,7 +247,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="0px 40px 12px 40px">
       <mj-column>
-        <mj-table font-family="Montserrat">
+        <mj-table font-family="'Montserrat', sans-serif">
           <tr >
             <td width="40px">
               <img src="https://i.postimg.cc/SR2D7MgD/visa.png" alt="credit card" width="45px"></img>
@@ -255,7 +255,7 @@
             <td style="padding:0 0 11px 15px;" >
                 <p style="font-weight:600">Visa (••••••••••••2100)</p>
             </td>
-            <td style="padding: 0 0 0 15px;" align="right">
+            <td style="padding: 0 0 11px 15px;" align="right">
               <p>$239.00</p>
             </td>
           </tr>
@@ -268,10 +268,10 @@
     </mj-raw>
     <mj-section background-color="#ffffff" padding="7px 40px 12px 40px">
       <mj-column css-class="center">
-        <mj-text font-family="Montserrat" font-size="13px" text-transform="uppercase">
+        <mj-text font-family="'Montserrat', sans-serif" font-size="13px" text-transform="uppercase">
           <h2 css-class="center">Billing Info</h2>
         </mj-text>
-        <mj-text font-family="Montserrat">
+        <mj-text font-family="'Montserrat', sans-serif">
           <p>Diane Hayes</p>
           <p>600 Montgomery St</p>
           <p>San Francisco CA</p>
@@ -280,15 +280,51 @@
         </mj-text>
       </mj-column>
       <mj-column css-class="center" >
-        <mj-text font-family="Montserrat" font-size="13px" text-transform="uppercase" align="right">
+        <mj-text font-family="'Montserrat', sans-serif" font-size="13px" text-transform="uppercase" align="right">
           <h2 css-class="center">Shipping Info</h2>
         </mj-text>
-        <mj-text font-family="Montserrat" align="right">
+        <mj-text font-family="'Montserrat', sans-serif" align="right">
           <p>Diane Hayes</p>
           <p>600 Montgomery St</p>
           <p>San Francisco CA</p>
           <p>94111</p>
           <p>United States</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- contact -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="0px 40px 0px 40px">
+      <mj-column >
+        <mj-text font-family="'Montserrat', sans-serif" align="center">
+          <h2 style="text-transform:uppercase;">Got questions? We got answers</h2>
+          <p style="font-size:15px;">Monday to Friday 9am - 9pm ET</p>
+          <p style="font-size:15px;">Saturday to Sunday 10am - 6pm ET</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- phone and email info -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" padding="0px 40px 12px 40px">
+      <mj-column>
+        <mj-text font-family="'Montserrat', sans-serif" align="center">
+          <p style="font-size:15px;"><span style="font-weight:600">Phone No:</span> +1 888–123–4567</p>
+          <p style="font-size:15px;"><span style="font-weight:600">Email:</span> support@lenscrafters.com</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- footer -->
+    </mj-raw>
+    <mj-section background-color="#ffffff">
+      <mj-column border-top="1px solid #dadada">
+        <mj-text font-family="'Montserrat', sans-serif" font-size="10px" align="center">
+          <p>This email was created by <a style="color:crimson;" href="#">C.Coke</a>.</p>
         </mj-text>
       </mj-column>
     </mj-section>

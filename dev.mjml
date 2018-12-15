@@ -313,7 +313,7 @@
       <mj-column>
         <mj-text font-family="'Montserrat', sans-serif" align="center">
           <p style="font-size:15px;"><span style="font-weight:600">Phone No:</span> +1 888–123–4567</p>
-          <p style="font-size:15px;"><span style="font-weight:600">Email:</span> support@lenscrafters.com</p>
+          <p style="font-size:15px;"><span style="font-weight:600">Email:</span> <a href="https://www.lenscrafters.com">support@lenscrafters.com</a></p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -323,8 +323,8 @@
     </mj-raw>
     <mj-section background-color="#ffffff">
       <mj-column border-top="1px solid #dadada">
-        <mj-text font-family="'Montserrat', sans-serif" font-size="10px" align="center">
-          <p>This email was created by <a style="color:crimson;" href="#">C.Coke</a>.</p>
+        <mj-text font-family="'Montserrat', sans-serif" font-size="10px" align="center" line-height="15px">
+          <p>This email was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message. Your invoice can be accessed <a href="https://www.lenscrafters.com">here</a>.</p>
         </mj-text>
       </mj-column>
     </mj-section>
